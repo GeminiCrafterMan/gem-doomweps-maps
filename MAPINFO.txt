@@ -1,0 +1,3 @@
+include mapinfo/gameconfig.txt
+include mapinfo/maps.txt
+include mapinfo/doomednums.txt
