@@ -1,0 +1,134 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		viewpositiony = 373.9852f;
+		custombrightness = 196;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			stderriserror = true;
+			exitcodeiserror = true;
+		}
+		uselongtexturenames = false;
+		overrideceiltexture = false;
+		overridebottomtexture = false;
+		defaultfloortexture = "0WOODF02";
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			stderriserror = true;
+			exitcodeiserror = true;
+		}
+		viewpositionx = -125.8273f;
+		overridemiddletexture = false;
+		viewscale = 0.4735596f;
+		defaulttoptexture = "OFENCF02";
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			stderriserror = true;
+			exitcodeiserror = true;
+		}
+		overridetoptexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		defaultwalltexture = "OFENCF02";
+		overridefloortexture = false;
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultceiltexture = "F_SKY1";
+		defaultbottomtexture = "OFENCF02";
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			stderriserror = true;
+			exitcodeiserror = true;
+		}
+		overrideceilheight = false;
+		
+		grid
+		{
+			backscalex = 100;
+			gridoriginy = 0;
+			background = "";
+			backoffsety = 0;
+			gridoriginx = 0;
+			backoffsetx = 0;
+			gridrotate = 0;
+			gridsize = 16;
+			backscaley = 100;
+			backsource = 0;
+		}
+		overridebrightness = false;
+		overridefloorheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "/home/dustinr/Desktop/Modding/Projects/Personal/gem-doomweps";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "/home/dustinr/Desktop/Modding/Projects/Personal/gem-doomweps-maps";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource2
+			{
+				type = 2;
+				location = "/home/dustinr/Desktop/Modding/Projects/Personal/gem-doomweps-maps/Resources/OTEX_1.1.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -1344;
+					outerright = -832;
+					outertop = 1152;
+					outerbottom = 640;
+				}
+			}
+		}
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				user_managed_3d_floor = 3;
+			}
+		}
+	}
+}

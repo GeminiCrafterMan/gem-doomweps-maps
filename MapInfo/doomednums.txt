@@ -30,41 +30,45 @@ DoomEdNums
 		3005 = GWM_Cacodemon
 		3006 = GWM_LostSoul
 
+	// Define a new obstacle
+		90 = GWM_ThrownMine
+
 	// Define new monsters
-		90 = GWM_SMGGuy
-		91 = GWM_IceShotgunGuy
-		92 = GWM_ShadowHunter
-		93 = GWM_HeavyRifleman
-		94 = GWM_NightmareImp
-		95 = GWM_CyberImp
-		96 = GWM_Nightshade
-		97 = GWM_Hellhog
-		98 = GWM_Blot
-		99 = GWM_Superdemon
+		91 = GWM_SMGGuy
+		92 = GWM_IceShotgunGuy
+		93 = GWM_ShadowHunter
+		94 = GWM_HeavyRifleman
+		95 = GWM_NightmareImp
+		96 = GWM_CyberImp
+		97 = GWM_Nightshade
+		98 = GWM_Hellhog
+		99 = GWM_Blot
+		100 = GWM_Superdemon
 
 	// Define new ammo types
-		100 = GWM_HighCaliberClip
-		101 = GWM_HighCaliberBelt
-		102 = GWM_IceShell
-		103 = GWM_IceShellBox
-		104 = GWM_VenomVial
-		105 = GWM_LargeVenomVial
-		106 = GWM_NapalmAmmo
-		107 = GWM_NapalmStack
+		101 = GWM_HighCaliberClip
+		102 = GWM_HighCaliberBelt
+		103 = GWM_IceShell
+		104 = GWM_IceShellBox
+		105 = GWM_VenomVial
+		106 = GWM_LargeVenomVial
+		107 = GWM_NapalmAmmo
+		108 = GWM_NapalmStack
 	
 	// Define new weapons
-		108 = GWM_Impactor
-		109 = GWM_IceShotgun
-		110 = GWM_PFSuperShotgun
-		111 = GWM_BurstRifle
-		112 = GWM_VenomCannon
-		113 = GWM_Melter
-		114 = GWM_NoiseCrusher
-		115 = GWM_NapalmLauncher
+		109 = GWM_Mine
+		110 = GWM_Impactor
+		111 = GWM_IceShotgun
+		112 = GWM_PFSuperShotgun
+		113 = GWM_BurstRifle
+		114 = GWM_VenomCannon
+		115 = GWM_Melter
+		116 = GWM_NoiseCrusher
+		117 = GWM_NapalmLauncher
 	
 	// Define new powerups
-		116 = GWM_DrainSphere
-		117 = GWM_Stopwatch
-		118 = GWM_ReflectSphere // this editor number belongs to ZBridge. but fuck ZBridge, we have actual 3D floors in UDMF, so why bother?
-		119 = GWM_PortableMedkit
+		118 = GWM_DrainSphere
+		119 = GWM_Stopwatch
+		120 = GWM_ReflectSphere // this editor number belongs to ZBridge. but fuck ZBridge, we have actual 3D floors in UDMF, so why bother?
+		121 = GWM_PortableMedkit
 }
