@@ -7,7 +7,7 @@ maps
 	
 	MAP01
 	{
-		viewpositiony = 373.9852f;
+		viewpositiony = 484.0258f;
 		custombrightness = 196;
 		
 		testpostcommand
@@ -27,9 +27,9 @@ maps
 			stderriserror = true;
 			exitcodeiserror = true;
 		}
-		viewpositionx = -125.8273f;
+		viewpositionx = -276.1454f;
 		overridemiddletexture = false;
-		viewscale = 0.4735596f;
+		viewscale = 1.12455f;
 		defaulttoptexture = "OFENCF02";
 		
 		testprecommand
@@ -118,6 +118,48 @@ maps
 					outerright = -832;
 					outertop = 1152;
 					outerbottom = 640;
+				}
+			}
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+					
+					prefab1
+					{
+						name = "[Previous]";
+						numberofsectors = 1;
+						outervertexmultiplier = 1;
+						innervertexmultiplier = 1;
+						stairtype = 0;
+						sectordepth = 16;
+						spacing = 0;
+						frontside = true;
+						singlesectors = true;
+						distinctsectors = true;
+						singledirection = false;
+						distinctbaseheights = true;
+						flipping = 0;
+						numberofcontrolpoints = 1;
+						applyfloormod = true;
+						floormod = 0;
+						applyceilingmod = true;
+						ceilingmod = 0;
+						applyfloortexture = false;
+						floortexture = "";
+						applyceilingtexture = false;
+						ceilingtexture = "";
+						applyuppertexture = true;
+						uppertexture = "OBASEA30";
+						upperunpegged = true;
+						applymiddletexture = false;
+						middletexture = "-";
+						applylowertexture = true;
+						lowertexture = "OBASEA30";
+						lowerunpegged = true;
+					}
 				}
 			}
 		}
