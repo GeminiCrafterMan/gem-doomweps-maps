@@ -1,18 +1,25 @@
 DoomEdNums
 {
 	// Redefine defaults
-		9 = GWM_KahunaShotgunGuy
+		7 = GWM_SpiderMastermind
+		9 = GWM_ShitShotgunGuy
 		16 = GWM_Cyberdemon
 		17 = GWM_CellPack
+		58 = GWM_Spectre
 		65 = GWM_ChaingunGuy
+		66 = GWM_Revenant
+		67 = GWM_Mancubus
+		68 = GWM_Arachnotron
+		69 = GWM_HellKnight
 		82 = GWM_SuperShotgun
-		2001 = GWM_Shotgun
+		84 = GWM_WolfensteinSS
+		2001 = GWM_ZombieShotgun
 		2002 = GWM_Chaingun
 		2003 = GWM_RocketLauncher
 		2004 = GWM_PlasmaRifle
 		2005 = GWM_Lumberjack
 		2006 = GWM_BFG9000
-		2007 = GWM_LowCaliberClip
+		2007 = GWM_LowCaliberMagazine
 		2008 = GWM_Shell
 		2010 = GWM_RocketAmmo
 		2013 = GWM_Soulsphere
@@ -35,40 +42,55 @@ DoomEdNums
 
 	// Define new monsters
 		91 = GWM_SMGGuy
-		92 = GWM_IceShotgunGuy
-		93 = GWM_ShadowHunter
-		94 = GWM_HeavyRifleman
-		95 = GWM_NightmareImp
-		96 = GWM_CyberImp
-		97 = GWM_Nightshade
-		98 = GWM_Hellhog
-		99 = GWM_Blot
-		100 = GWM_Superdemon
+		92 = GWM_KahunaShotgunGuy
+		93 = GWM_IceShotgunGuy
+		94 = GWM_ShadowHunter
+		95 = GWM_HeavyRifleman
+		96 = GWM_Devil
+		97 = GWM_CyberImp
+		98 = GWM_Nightshade
+		99 = GWM_Hellhog
+		100 = GWM_Blot
+		101 = GWM_DisCacodemon
+		102 = GWM_CyberHellKnight
+		103 = GWM_CyberBaron
+		104 = GWM_Draugr
+		105 = GWM_Superdemon
 
 	// Define new ammo types
-		101 = GWM_HighCaliberClip
-		102 = GWM_HighCaliberBelt
-		103 = GWM_IceShell
-		104 = GWM_IceShellBox
-		105 = GWM_VenomVial
-		106 = GWM_LargeVenomVial
-		107 = GWM_NapalmAmmo
-		108 = GWM_NapalmStack
-	
+		106 = GWM_HighCaliberMagazine
+		107 = GWM_HighCaliberBelt
+		108 = GWM_IceShell
+		109 = GWM_IceShellBox
+		110 = GWM_VenomVial
+		111 = GWM_LargeVenomVial
+		112 = GWM_MelterHeatsink
+		113 = GWM_GasCanister
+		114 = GWM_GasPack
+		// Annihilator ammo doesn't spawn.
+
 	// Define new weapons
-		109 = GWM_Mine
-		110 = GWM_Impactor
-		111 = GWM_IceShotgun
-		112 = GWM_PFSuperShotgun
-		113 = GWM_BurstRifle
-		114 = GWM_VenomCannon
-		115 = GWM_Melter
-		116 = GWM_NoiseCrusher
-		117 = GWM_NapalmLauncher
+		115 = GWM_Impactor
+		116 = GWM_SMG
+		117 = GWM_Revolver
+		119 = GWM_Shotgun
+		120 = GWM_IceShotgun
+		121 = GWM_PFSuperShotgun
+		122 = GWM_BurstRifle
+		123 = GWM_MP40
+		124 = GWM_VenomCannon
+		125 = GWM_Melter
+		126 = GWM_NoiseCrusher
+		127 = GWM_Flamethrower
+		128 = GWM_TwinPlasmaCannons
+		129 = GWM_Bouncer
+		130 = GWM_EldritchAnnihilator
+		131 = GWM_Mine
+		132 = GWM_Dynamite
 	
 	// Define new powerups
-		118 = GWM_DrainSphere
-		119 = GWM_Stopwatch
-		120 = GWM_ReflectSphere // this editor number belongs to ZBridge. but fuck ZBridge, we have actual 3D floors in UDMF, so why bother?
-		121 = GWM_PortableMedkit
+		133 = GWM_DrainSphere
+		134 = GWM_Stopwatch
+		135 = GWM_ReflectSphere
+		136 = GWM_PortableMedkit
 }

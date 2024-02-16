@@ -7,7 +7,7 @@ maps
 	
 	MAP01
 	{
-		viewpositiony = 484.0258f;
+		viewpositiony = -367.1122f;
 		custombrightness = 196;
 		
 		testpostcommand
@@ -19,7 +19,7 @@ maps
 		uselongtexturenames = false;
 		overrideceiltexture = false;
 		overridebottomtexture = false;
-		defaultfloortexture = "0WOODF02";
+		defaultfloortexture = "FLOOR0_1";
 		
 		reloadresourceprecommand
 		{
@@ -27,10 +27,10 @@ maps
 			stderriserror = true;
 			exitcodeiserror = true;
 		}
-		viewpositionx = -276.1454f;
+		viewpositionx = 628.502f;
 		overridemiddletexture = false;
-		viewscale = 1.12455f;
-		defaulttoptexture = "OFENCF02";
+		viewscale = 8.486912f;
+		defaulttoptexture = "LITE5";
 		
 		testprecommand
 		{
@@ -41,11 +41,11 @@ maps
 		overridetoptexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
-		defaultwalltexture = "OFENCF02";
+		defaultwalltexture = "LITE5";
 		overridefloortexture = false;
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultceiltexture = "F_SKY1";
-		defaultbottomtexture = "OFENCF02";
+		defaultceiltexture = "CEIL3_3";
+		defaultbottomtexture = "LITE5";
 		
 		reloadresourcepostcommand
 		{
@@ -96,8 +96,18 @@ maps
 			
 			resource2
 			{
-				type = 2;
-				location = "/home/dustinr/Desktop/Modding/Projects/Personal/gem-doomweps-maps/Resources/OTEX_1.1.pk3";
+				type = 0;
+				location = "/home/dustinr/Desktop/Modding/Projects/Personal/gem-doomweps-maps/Resources/cage_tex.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource3
+			{
+				type = 0;
+				location = "/home/dustinr/Desktop/Modding/Projects/Personal/gem-doomweps-maps/Resources/CageTex2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -126,50 +136,7 @@ maps
 				
 				prefabs
 				{
-					
-					prefab1
-					{
-						name = "[Previous]";
-						numberofsectors = 1;
-						outervertexmultiplier = 1;
-						innervertexmultiplier = 1;
-						stairtype = 0;
-						sectordepth = 16;
-						spacing = 0;
-						frontside = true;
-						singlesectors = true;
-						distinctsectors = true;
-						singledirection = false;
-						distinctbaseheights = true;
-						flipping = 0;
-						numberofcontrolpoints = 1;
-						applyfloormod = true;
-						floormod = 0;
-						applyceilingmod = true;
-						ceilingmod = 0;
-						applyfloortexture = false;
-						floortexture = "";
-						applyceilingtexture = false;
-						ceilingtexture = "";
-						applyuppertexture = true;
-						uppertexture = "OBASEA30";
-						upperunpegged = true;
-						applymiddletexture = false;
-						middletexture = "-";
-						applylowertexture = true;
-						lowertexture = "OBASEA30";
-						lowerunpegged = true;
-					}
 				}
-			}
-		}
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				user_managed_3d_floor = 3;
 			}
 		}
 	}

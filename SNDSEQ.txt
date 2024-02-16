@@ -1,0 +1,18 @@
+// Door opening, thin metal
+:ThinMetalOpen
+	play	doors/ThinMetalOpen
+	nostopcutoff
+end
+
+// Door closing, thin metal
+:ThinMetalClose
+	play	doors/ThinMetalClose
+	nostopcutoff
+end
+
+// Open/close door
+[PolyThinMetalDoor
+	DOOR 0
+	0	ThinMetalOpen
+	1	ThinMetalClose
+]
